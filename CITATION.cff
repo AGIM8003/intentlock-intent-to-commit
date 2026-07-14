@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+  message: "Please cite this independent research publication using the metadata below."
+  title: "IntentLock: A Deterministic Intent-to-Commit Control and Evidence Architecture for AI-Assisted Software Development"
+  type: report
+authors:
+  - family-names: "Haxhijaha"
+      given-names: "Agim"
+      affiliation: "Independent Researcher"
+      orcid: "https://orcid.org/0009-0002-3234-7765"
+  version: "5.0"
+  doi: "10.5281/zenodo.21361708"
+  date-released: "2026-07-14"
+  license: "CC-BY-NC-ND-4.0"
+  repository-code: "https://github.com/AGIM8003/intentlock-intent-to-commit"
+  abstract: >-
+    IntentLock is a proposed local-first control and evidence architecture for
+    binding a signed human-approved software task to the repository state
+  ultimately accepted after an AI coding session.
+keywords:
+  - "AI coding agents"
+      - "intent-to-commit verification"
+      - "human authorization"
+      - "deterministic policy"
+      - "diff envelopes"
+      - "software provenance"
+      - "sandboxing"
+      - "repository governance"
+      - "prompt injection"
+      - "local-first systems"
