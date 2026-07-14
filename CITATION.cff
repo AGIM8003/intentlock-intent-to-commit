@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this independent research publication using the metadata below."
 title: "IntentLock: A Deterministic Intent-to-Commit Control and Evidence Architecture for AI-Assisted Software Development"
-type: report
+type: software
 authors:
   - family-names: "Haxhijaha"
     given-names: "Agim"
