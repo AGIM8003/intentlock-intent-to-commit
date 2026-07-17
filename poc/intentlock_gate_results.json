@@ -1,0 +1,49 @@
+{
+  "gate": "IntentLock Reality Gate",
+  "passed": 8,
+  "total": 8,
+  "all_pass": true,
+  "timestamp": "2026-07-17T07:38:09.631351+00:00",
+  "results": [
+    {
+      "name": "accepted_in_envelope",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "out_of_envelope_path",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "unsigned_unauthorized",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "agent_self_approve_blocked",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "capability_exceeded",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "pending_unfrozen",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "empty_rejected",
+      "pass": true,
+      "error": null
+    },
+    {
+      "name": "ops_over_max",
+      "pass": true,
+      "error": null
+    }
+  ]
+}

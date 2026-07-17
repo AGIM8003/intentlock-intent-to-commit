@@ -1,0 +1,20 @@
+{
+  "service": "intentlock-acceptance-boundary",
+  "version": "6.0.0",
+  "compute": {
+    "vcpu": 2,
+    "memory_gib": 2,
+    "storage_gib": 20
+  },
+  "api": {
+    "base": "/api/v1/intentlock",
+    "health": "/health"
+  },
+  "security_requirements": [
+    "human-signed Intent Contracts",
+    "agent non-authoritative workspace",
+    "independent merge boundary",
+    "offline-verifiable proof capsules"
+  ],
+  "note": "Requirements only \u2014 not implemented controls"
+}

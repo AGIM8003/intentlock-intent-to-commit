@@ -1,0 +1,68 @@
+{
+  "killed": 9,
+  "total": 10,
+  "kill_rate": 0.9,
+  "pass": true,
+  "results": [
+    {
+      "name": "ignore_paths",
+      "correct": "OUT_OF_ENVELOPE",
+      "mutant": "ACCEPTED",
+      "killed": true
+    },
+    {
+      "name": "allow_self_approve",
+      "correct": "UNAUTHORIZED",
+      "mutant": "ACCEPTED",
+      "killed": true
+    },
+    {
+      "name": "ignore_max_files",
+      "correct": "OUT_OF_ENVELOPE",
+      "mutant": "OUT_OF_ENVELOPE",
+      "killed": false
+    },
+    {
+      "name": "ignore_caps",
+      "correct": "CAPABILITY_EXCEEDED",
+      "mutant": "ACCEPTED",
+      "killed": true
+    },
+    {
+      "name": "always_accept",
+      "correct": "UNAUTHORIZED",
+      "mutant": "ACCEPTED",
+      "killed": true
+    },
+    {
+      "name": "skip_frozen",
+      "correct": "PENDING",
+      "mutant": "ACCEPTED",
+      "killed": true
+    },
+    {
+      "name": "ignore_max_ops",
+      "correct": "OUT_OF_ENVELOPE",
+      "mutant": "ACCEPTED",
+      "killed": true
+    },
+    {
+      "name": "empty_as_accept",
+      "correct": "REJECTED",
+      "mutant": "ACCEPTED",
+      "killed": true
+    },
+    {
+      "name": "rewrite_to_allowed",
+      "correct": "OUT_OF_ENVELOPE",
+      "mutant": "ACCEPTED",
+      "killed": true
+    },
+    {
+      "name": "force_signed",
+      "correct": "UNAUTHORIZED",
+      "mutant": "ACCEPTED",
+      "killed": true
+    }
+  ]
+}

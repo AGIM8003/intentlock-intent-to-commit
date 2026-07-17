@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this independent research publication using the metadata below."
+message: "If you use or discuss this work, please cite it using this metadata."
 title: "IntentLock: A Deterministic Intent-to-Commit Control and Evidence Architecture for AI-Assisted Software Development"
 type: software
 authors:
@@ -7,23 +7,40 @@ authors:
     given-names: "Agim"
     affiliation: "Independent Researcher"
     orcid: "https://orcid.org/0009-0002-3234-7765"
-version: "5.0"
+    email: "agim@vertogroup.ai"
 doi: "10.5281/zenodo.21361708"
-date-released: "2026-07-14"
-license: "CC-BY-NC-ND-4.0"
+version: "6.0.0"
+date-released: "2026-07-17"
 repository-code: "https://github.com/AGIM8003/intentlock-intent-to-commit"
+license: "CC-BY-NC-ND-4.0"
 abstract: >-
-  IntentLock is a proposed local-first control and evidence architecture for
-  binding a signed human-approved software task to the repository state
-  ultimately accepted after an AI coding session.
+  AI coding agents can produce technically valid repository changes that exceed
+  what a human intended to authorize. Sandboxes, pull-request review, and build
+  attestations help, but the producer of a change can still blur into the authority
+  that admits it. IntentLock is a proposed local-first intent-to-commit control
+  and evidence architecture that binds a signed human-approved Intent Contract to
+  a compiled Diff Envelope and capability policy, records non-authoritative
+  execution units, freezes candidates, and admits repository state only at an
+  independent acceptance boundary with fail-closed verdicts such as ACCEPTED,
+  OUT_OF_ENVELOPE, UNAUTHORIZED, CAPABILITY_EXCEEDED, PENDING, and REJECTED,
+  emitting an offline-verifiable proof capsule. This Public Research Edition
+  (v6.0.0) adds an importable, stdlib-only reference research library
+  (from intentlock import IntentLockEngine), Reality Gate PASS (8/8), benchmarks,
+  mutation testing >=90%, an alternative-implementation replication oracle, a
+  numeric README-versus-CI expansion real-world scenario, and stress tests to
+  2000 execution units. It does not claim universal agent security, peer review,
+  independent third-party replication, Freedom-to-Operate clearance, or production
+  readiness. Concept DOI: 10.5281/zenodo.21361708. Released for evaluation,
+  citation, and attempted falsification. PDF regeneration may still be required
+  for the companion PDF artifact after this markdown uplift.
 keywords:
-  - "AI coding agents"
-  - "intent-to-commit verification"
-  - "human authorization"
-  - "deterministic policy"
-  - "diff envelopes"
-  - "software provenance"
+  - "intent-to-commit"
+  - "ai-coding-agents"
+  - "diff-envelope"
+  - "human-authorization"
+  - "proof-capsule"
+  - "repository-governance"
+  - "deterministic-policy"
   - "sandboxing"
-  - "repository governance"
-  - "prompt injection"
-  - "local-first systems"
+  - "software-supply-chain"
+  - "local-first-systems"

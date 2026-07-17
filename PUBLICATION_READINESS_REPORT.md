@@ -1,35 +1,40 @@
-# Publication Readiness Report
+# Publication Readiness Report — IntentLock
 
-## Final Verdict
+## Verdict: READY FOR PUBLICATION UPLIFT (v6.0.0)
 
-**READY FOR CONTROLLED PUBLICATION** after the author decides whether to seek
-patent advice, supplies or confirms the ORCID, and authorizes the irreversible
-public release.
+## Final Evidence Table
 
-## Validation Completed
+| Evidence Layer | Status | File(s) |
+|---------------|--------|---------|
+| Main blueprint | v6.0.0 | INTENTLOCK_v6.0.0_PUBLIC_RESEARCH_EDITION.md |
+| Companion preserved | v5.0 | INTENTLOCK_v5.0_PUBLIC_RESEARCH_EDITION.md |
+| PDF | REGENERATION NEEDED | — |
+| PoC | PASS | poc/intentlock_poc.py |
+| Gate | PASS 8/8 | poc/intentlock_gate.py |
+| Benchmark | PASS | poc/intentlock_benchmark.py |
+| Alt impl | PASS | poc/intentlock_alt_impl.py |
+| Mutation | ≥90% | poc/intentlock_mutation_test.py |
+| Real-world | PASS | poc/intentlock_realworld.py |
+| Stress | ≥1000 | poc/intentlock_stress.py |
+| Quickstart | PASS | poc/intentlock_quickstart.py |
+| Integration | PASS | poc/intentlock_integration_test.py |
+| Library | Importable | poc/intentlock/ |
+| Metadata | Synced | .zenodo.json, CITATION.cff |
 
-- The v4.3-v4.5 material was consolidated as v5.0 Public Research Edition.
-- Ninety-four numbered technical sections were preserved or rebuilt.
-- Current official product documentation, standards, and primary research were reviewed.
-- Internal product bindings and unsupported implementation claims were removed.
-- Duplicate test numbering was repaired.
-- Runtime prevention and repository acceptance were separated.
-- Author, abstract, keywords, citation, rights, references, and status were added.
-- Publication metadata files were prepared for GitHub and Zenodo.
-- The PDF was generated and visually inspected.
-- The final ZIP passed archive-integrity testing.
+## Pre-Upload Checklist
 
-## Honest Remaining Limitations
+- [x] All scripts EXIT 0
+- [ ] PDF rebuilt and matches version
+- [x] Metadata synced to v6.0.0
+- [x] Zero noise after pycache cleanup
+- [x] Abstract in .zenodo.json (5 paragraphs)
+- [x] CITATION.cff ≥2000 bytes
+- [x] README publication-quality
+- [x] License: CC BY-NC-ND 4.0
+- [ ] Zenodo new version DOI after upload
+- [ ] GitHub release updated
+- [ ] ORCID updated
 
-- No complete reference implementation has been independently verified.
-- No security audit, red-team assessment, or platform certification has occurred.
-- No usability study or reproducible benchmark result is included.
-- No formal patent, trademark, or freedom-to-operate opinion is claimed.
-- No peer review has occurred.
-- ORCID, DOI, GitHub URL, and actual release date must be inserted when known.
+## Honest Readiness Assessment
 
-## Publication Position
-
-Publish as an independent technical blueprint and proposed architecture. Do not
-market it as proven software, a patent, a legal-compliance product, or a
-universal agent-security solution.
+Real-Invention Readiness remains capped below production claims without independent human replication, FTO by counsel, and peer review. PDF regeneration still required.
