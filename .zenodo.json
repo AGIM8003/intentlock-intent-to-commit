@@ -1,30 +1,44 @@
 {
   "title": "IntentLock: A Deterministic Intent-to-Commit Control and Evidence Architecture for AI-Assisted Software Development",
-  "description": "IntentLock is a proposed local-first control and evidence architecture for binding a signed human-approved software task to the repository state ultimately accepted after an AI coding session. It converts human authority into deterministic policy and capability requirements, runs changes in a non-authoritative workspace, verifies frozen candidates against Diff Envelopes and security gates, admits changes through an independent acceptance boundary, and produces an offline intent-to-commit proof capsule. The proposed contribution is the integrated authority and evidence chain, not the novelty of sandboxing, policy evaluation, Git review, or attestations individually. This independent technical blueprint does not claim implementation, validation, patentability, legal compliance, universal security, peer review, or production readiness.",
+  "description": "<p><strong>Problem.</strong> AI coding agents can make broad, technically valid changes that exceed what a human intended to authorize. Sandboxes and PR review help, but the producer of a change can still blur into the authority that admits it.</p><p><strong>Gap.</strong> Existing tools offer containment, review, or build attestations separately. Few bind a signed human task to a Diff Envelope, forbid agent self-acceptance, and emit an offline-verifiable intent-to-commit proof capsule.</p><p><strong>Proposed solution.</strong> IntentLock converts a human task into a signed Intent Contract, compiles Diff Envelope and capability policy, records non-authoritative execution units, freezes candidates, and admits changes only at an independent boundary with fail-closed verdicts.</p><p><strong>Key evidence (v6.0.0).</strong> Importable library <code>from intentlock import IntentLockEngine</code>; Reality Gate 8/8; benchmarks; mutation testing \u226590%; alternative-implementation replication; real-world README-vs-CI expansion scenario; stress to 2000 execution units.</p><p><strong>Honest limits.</strong> Not production, not peer reviewed, not independently replicated, not universal agent security. Concept DOI: 10.5281/zenodo.21361708. Released for evaluation, citation, and attempted falsification.</p>",
   "upload_type": "publication",
-  "publication_type": "technicalnote",
+  "publication_type": "workingpaper",
   "creators": [
     {
       "name": "Haxhijaha, Agim",
+      "orcid": "0009-0002-3234-7765",
       "affiliation": "Independent Researcher"
     }
   ],
-  "publication_date": "2026-07-13",
-  "version": "5.0",
+  "publication_date": "2026-07-17",
+  "version": "6.0.0",
   "language": "eng",
+  "access_right": "open",
   "license": "cc-by-nc-nd-4.0",
   "keywords": [
-    "AI coding agents",
-    "intent-to-commit verification",
-    "human authorization",
-    "deterministic policy",
-    "diff envelopes",
-    "repository acceptance",
-    "software provenance",
+    "intent-to-commit",
+    "ai-coding-agents",
+    "diff-envelope",
+    "human-authorization",
+    "proof-capsule",
+    "repository-governance",
+    "deterministic-policy",
     "sandboxing",
-    "prompt injection",
-    "MCP security",
-    "local-first systems"
+    "software-supply-chain",
+    "local-first-systems"
   ],
-  "notes": "Independent Research Publication No. 3. v5.0 Public Research Edition. Not peer reviewed. Proposed architecture; reference implementation not built. Generative AI tools assisted research synthesis, consolidation, language editing, consistency review, and publication preparation. The named author directed the work and is responsible for the released content and publication decision."
+  "notes": "Independent Research Publication No. 3. v6.0.0. Concept DOI 10.5281/zenodo.21361708. PDF REGENERATION NEEDED. Not peer reviewed. Not production. Generative AI tools assisted preparation. Author responsible for content.",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21361708",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/AGIM8003/intentlock-intent-to-commit",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
 }

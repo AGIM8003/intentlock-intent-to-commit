@@ -1,0 +1,10 @@
+{
+  "cases": [
+    {
+      "name": "200_files_accept",
+      "pass": true,
+      "seconds": 0.000423
+    }
+  ],
+  "all_pass": true
+}

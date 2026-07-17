@@ -1,0 +1,23 @@
+{
+  "rows": [
+    {
+      "scenario": 0,
+      "engine": "ACCEPTED",
+      "oracle": "ACCEPTED",
+      "match": true
+    },
+    {
+      "scenario": 1,
+      "engine": "OUT_OF_ENVELOPE",
+      "oracle": "OUT_OF_ENVELOPE",
+      "match": true
+    },
+    {
+      "scenario": 2,
+      "engine": "UNAUTHORIZED",
+      "oracle": "UNAUTHORIZED",
+      "match": true
+    }
+  ],
+  "replication_pass": true
+}

@@ -1,0 +1,208 @@
+{
+  "package": "INTENTLOCK",
+  "version": "6.0.0",
+  "file_count": 40,
+  "files": [
+    {
+      "path": ".zenodo.json",
+      "bytes": 2702,
+      "sha256": "c2a3e667e95d7981a087f9d32c521fdf60c5e412915dca5b8a360f70f63303fe"
+    },
+    {
+      "path": "00_PUBLICATION_AGENT_EXECUTION.md",
+      "bytes": 6780,
+      "sha256": "e4e17675d001fc319bad7f530583603e3e97f6276e9da2eeb93f0f266c9d4aad"
+    },
+    {
+      "path": "BUILD_PUBLICATION_PDF.sh",
+      "bytes": 1119,
+      "sha256": "ea88d4c76800d654a643ea19733e25a50d22333feb67282e177655f13f840353"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1185,
+      "sha256": "8bfe781aa003eb1524c3d97d6e49976d6433f132e58a11a9dc670f325ae9f9dd"
+    },
+    {
+      "path": "INTENTLOCK_API_REFERENCE.md",
+      "bytes": 898,
+      "sha256": "34effebdb414c9ef06397b82c722f777b9e5fe7ecf7cf84ff6a470de3ea4c6de"
+    },
+    {
+      "path": "INTENTLOCK_v5.0_PUBLIC_RESEARCH_EDITION.md",
+      "bytes": 146483,
+      "sha256": "e5696b98cd755def13e737579e03aea43725a8778926aef7281d11ab4c2da5d7"
+    },
+    {
+      "path": "INTENTLOCK_v5.0_PUBLIC_RESEARCH_EDITION.pdf",
+      "bytes": 284641,
+      "sha256": "3b1756f600f093e6e25d2b3fb4c5978e11fff0f42bebc0ee10a580dd25e695be"
+    },
+    {
+      "path": "INTENTLOCK_v6.0.0_PUBLIC_RESEARCH_EDITION.md",
+      "bytes": 159674,
+      "sha256": "1ed3e541fdfd437ab0103f6e2318d0f01732a45d3ed242d1ee733e275379b6f7"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 786,
+      "sha256": "257775351710e70a003a7b26d0f7ee7a1e2c3725d92a7480f368a34088d83327"
+    },
+    {
+      "path": "LINKEDIN_ANNOUNCEMENT.md",
+      "bytes": 632,
+      "sha256": "a8b6f792a67d60fd74b031422877950c295c0bfea5b3136cfe18d4db8cc58ccd"
+    },
+    {
+      "path": "pdf-header.tex",
+      "bytes": 690,
+      "sha256": "45836cddc50faa58833a98a2cd9ab6e00a00f3a232ce11303212aba188821d41"
+    },
+    {
+      "path": "poc\\intentlock\\__init__.py",
+      "bytes": 501,
+      "sha256": "bc12d236a898b17c403283e09ffd3ebdc8f922ce8c2cd1bd51738814e3dc8018"
+    },
+    {
+      "path": "poc\\intentlock\\core.py",
+      "bytes": 2487,
+      "sha256": "ac9dd5abf914e50d43d687c7c980055b4fb7248b391bf163aaea6990a4a3ad2c"
+    },
+    {
+      "path": "poc\\intentlock\\engine.py",
+      "bytes": 7374,
+      "sha256": "646654d8a0bf6c072b9c9ceb49fd32c558b68dcaece8b26da8aef4bb7276331c"
+    },
+    {
+      "path": "poc\\intentlock\\types.py",
+      "bytes": 1213,
+      "sha256": "1fb2e12eacd6845575df2990be27169cadfc7a8473d6ad66986ebe5e7a1ee12a"
+    },
+    {
+      "path": "poc\\intentlock\\validators.py",
+      "bytes": 1101,
+      "sha256": "7ff32e90438cde9f238592c66dba22d68c241909f479a9cf077df163c868984c"
+    },
+    {
+      "path": "poc\\intentlock_alt_impl.py",
+      "bytes": 2204,
+      "sha256": "82c1c41d46b2761d7130b829afbd178d0b985b74b12970e3d1a70693bebd9987"
+    },
+    {
+      "path": "poc\\intentlock_benchmark.py",
+      "bytes": 1084,
+      "sha256": "6112346bd4f461895dc5f57b1d2520b1f5c4b4ebd9baad0923331b067bda5e5a"
+    },
+    {
+      "path": "poc\\intentlock_benchmark_results.json",
+      "bytes": 141,
+      "sha256": "8d04cb76100c956a8e0310b0af7cb2aa2654bb4a8ea368e7594e65f89c7f9bdd"
+    },
+    {
+      "path": "poc\\intentlock_deploy_manifest.json",
+      "bytes": 491,
+      "sha256": "168a24caeaee9718b5fe30e65944c327562e98a60d1d77959212eca2f2371017"
+    },
+    {
+      "path": "poc\\intentlock_evidence.json",
+      "bytes": 123,
+      "sha256": "764fef8ff0ec3ad3ad02f3962e5a08a416415af9e751b9bf66e3394e1d3c15dd"
+    },
+    {
+      "path": "poc\\intentlock_gate.py",
+      "bytes": 3953,
+      "sha256": "86dd6cc40ad5736123f87ab4cd41cde63d7a48a6a84059bcd6b81393c94d26e6"
+    },
+    {
+      "path": "poc\\intentlock_gate_results.json",
+      "bytes": 922,
+      "sha256": "5aab40021f692ab3bba596020491f38181e3ce12e9670e38df29b99c57a418ca"
+    },
+    {
+      "path": "poc\\intentlock_integration_results.json",
+      "bytes": 80,
+      "sha256": "0bcd6bff6fbe6c9da4f3371cf0b4c872b4ce3a84f43c2b2cb93140aa2f38fe9d"
+    },
+    {
+      "path": "poc\\intentlock_integration_test.py",
+      "bytes": 1096,
+      "sha256": "ba3cb28c258d90ea6c8f3cef7fe41bcdb5e6d81edbe1cac9f8f22b12c2df0c65"
+    },
+    {
+      "path": "poc\\intentlock_mutation_results.json",
+      "bytes": 1442,
+      "sha256": "1289f3387fb733c37ffcb1c38b292ac5b846f6b6b012ecdc34ecf47454e07b5d"
+    },
+    {
+      "path": "poc\\intentlock_mutation_test.py",
+      "bytes": 6896,
+      "sha256": "bc4262b45a1ba8fc5dfd123687fe1174e67299e1a6f314e462cee64b3dee9766"
+    },
+    {
+      "path": "poc\\intentlock_poc.py",
+      "bytes": 1367,
+      "sha256": "5b95a8fc22c8de9cb4a68e5e3e39cf43595bb7de246b177b47292cc96c5e4898"
+    },
+    {
+      "path": "poc\\intentlock_quickstart.py",
+      "bytes": 523,
+      "sha256": "76b58b4f34b8445b6a3233fb02e39b84d5aea3dfcd9213e2b0c282ce4c1bd192"
+    },
+    {
+      "path": "poc\\intentlock_realworld.py",
+      "bytes": 2655,
+      "sha256": "84fcc548e6496cb6244b604c99f1084fc5cc0c60d5159e98646701726347e5a5"
+    },
+    {
+      "path": "poc\\intentlock_realworld_evidence.json",
+      "bytes": 310,
+      "sha256": "20a24d7b43a067c792c2bdf49c3419e5c7f07f25fcd89dfcb1569b2c58601cf7"
+    },
+    {
+      "path": "poc\\intentlock_replication_evidence.json",
+      "bytes": 420,
+      "sha256": "9fc6749076d52086eb36355258e56db797674b83f7d7fc302aad54c3a95c6707"
+    },
+    {
+      "path": "poc\\intentlock_stress.py",
+      "bytes": 1215,
+      "sha256": "bcb02cb516600378c5e437e261a9eef8b444840cb3b51dc014d0bac99aacdfee"
+    },
+    {
+      "path": "poc\\intentlock_stress_results.json",
+      "bytes": 108,
+      "sha256": "8e5ddcd41f7aac040bd8e94c3c483de35abd6841d2f165fef3c2ae6470deb827"
+    },
+    {
+      "path": "poc\\REPRODUCE.md",
+      "bytes": 459,
+      "sha256": "f062ba147e23c3a7a1ba5c257f03550cc0fa32456732eeb0c78fb5299138f74b"
+    },
+    {
+      "path": "PRIOR_ART_AND_STANDARDS_REVIEW.md",
+      "bytes": 368,
+      "sha256": "abf014562d77c53d7881c0be537d25f2a4a124a8637c9b2810e5be8b063a9b09"
+    },
+    {
+      "path": "PUBLIC_EDITION_CHANGELOG.md",
+      "bytes": 440,
+      "sha256": "4426aeeb1e2163e70a88a5774eca443231df0504d402eb8af145b59428f18a67"
+    },
+    {
+      "path": "PUBLICATION_READINESS_REPORT.md",
+      "bytes": 662,
+      "sha256": "acd751229263415064c8ee12027a51acda301e71468f7e3bb78be127847017a4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1268,
+      "sha256": "9b79bb8f1d527a839d47a254dfb90a0ebdcabbe550b9674ad18b9c1ec1d26e77"
+    },
+    {
+      "path": "SSOT.md",
+      "bytes": 371,
+      "sha256": "0ee207585a54d13e92a9e84396c554885e09f8cf998dad152a0e7296486a16d6"
+    }
+  ],
+  "note": "PDF REGENERATION NEEDED"
+}
